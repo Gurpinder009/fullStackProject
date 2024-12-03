@@ -1,0 +1,86 @@
+
+.contact-form-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  
+ 
+  .map-container {
+    flex: 1;
+    min-width: 200px; 
+    max-width: 400px;
+  }
+  
+   .contact-form-container h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+  } 
+  
+  
+  form {
+    flex: 1;
+    min-width: 350px; 
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    padding-left: 100px;
+   
+  }
+  
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  
+  button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #C08081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #b16465;
+  }
+  
+
+  
